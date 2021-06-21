@@ -1,7 +1,8 @@
-import logo from './logo.svg';
+import logo from './logo.svg'; /* import for logo */
 import './App.css';
 
 function App() {
+  const greeting = "Hello"
   return (
     <div className="App">
       <header className="App-header">
@@ -17,9 +18,12 @@ function App() {
         >
           Learn React
         </a>
+        <p>Adding a child element in APP</p>
+        <p className="greeting">{greeting} from me</p>
       </header>
     </div>
   );
 }
+
 
 export default App;
